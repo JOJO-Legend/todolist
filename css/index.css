@@ -1,0 +1,66 @@
+.wrap{
+  width: 800px;
+  background-color: #eee;
+  margin: 0 auto;
+  padding: 30px;
+}
+.wrap h1,.wrap h2{
+  text-align: center;
+  line-height: 70px;
+  font-size: 34px;
+}
+.addTask{
+  width: 679px;
+  padding: 6px 10px;
+  font-size: 16px;
+}
+.addBtn{
+  font-size: 16px;
+  padding: 4px 10px;
+
+}
+.todolist{
+  padding: 20px;
+}
+.todolist li{
+  line-height: 34px;
+  background-color: #ccc;
+  margin-bottom: 10px;
+  padding: 0 15px;
+  overflow: hidden;
+}
+.todolist li:hover .edit,.todolist li:hover .del{
+  display: block;
+}
+.todolist .del{
+  float: right;
+  margin-right: 40px;
+  color: red;
+  cursor: pointer;
+  display: none;
+}
+.todolist .edit{
+  float: right;
+  margin-right: 40px;
+  color: red;
+  cursor: pointer;
+  display: none;
+}
+.todolist .rep{
+  width: 400px;
+  padding: 4px 6px;
+  font-size: 14px;
+}
+.todo span{
+  margin-right: 30px;
+  cursor: pointer;
+  color: blue;
+}
+.donelist li{
+  line-height: 34px;
+  background-color: #ccc;
+  margin-bottom: 10px;
+  padding: 0 15px;
+  overflow: hidden;
+  color: #999;
+}
